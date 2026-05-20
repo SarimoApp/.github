@@ -1,4 +1,3 @@
-```yaml id="q8m2vd"
 name: Sarimo Discord Updates
 
 on:
@@ -24,4 +23,3 @@ jobs:
           -X POST \
           -d "$(jq -n --arg content "$MESSAGE" '{content: $content}')" \
           ${{ secrets.DISCORD_WEBHOOK }}
-```
