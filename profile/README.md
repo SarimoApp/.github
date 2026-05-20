@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarimo-app/.github/main/assets/sarimo-logo-dark.png" alt="Sarimo" width="96" height="96" />
+  <img src="https://raw.githubusercontent.com/sarimo-app/.github/assets/sarimo-logo-dark.png" alt="Sarimo" width="96" height="96" />
 </p>
 
 <br />
@@ -249,7 +249,7 @@ We are building something that lasts.
 <br />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sarimo-app/.github/main/assets/sarimo-logo-dark.png" alt="Sarimo" width="48" height="48" />
+  <img src="https://raw.githubusercontent.com/sarimo-app/.github/assets/sarimo-logo-dark.png" alt="Sarimo" width="48" height="48" />
 </p>
 
 <br />
