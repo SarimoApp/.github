@@ -266,7 +266,7 @@ We are building something that lasts.
 
 <p align="center">
   <a href="#">Website</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#">Discord</a>&nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://discord.gg/SEGdkMqSwH">Discord</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#">Twitter / X</a>&nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="#">Releases</a>
 </p>
