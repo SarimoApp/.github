@@ -1,0 +1,27 @@
+```yaml id="q8m2vd"
+name: Sarimo Discord Updates
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord Update
+        run: |
+          MESSAGE="✦ SARIMO UPDATE
+
+          ${{ github.event.head_commit.message }}
+
+          Build: dev-0.2.${{ github.run_number }}
+          Branch: ${{ github.ref_name }}"
+
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d "$(jq -n --arg content "$MESSAGE" '{content: $content}')" \
+          ${{ secrets.DISCORD_WEBHOOK }}
+```
